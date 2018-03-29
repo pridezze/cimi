@@ -1,0 +1,1964 @@
+2018-03-28 02:23:05 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+2018-03-28 02:23:05 [116.226.176.36][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'u1u7j3e9urko2piaokmtendun0'
+    '_csrf-frontend' => '8c5a70d6fc95933f4c41c9aa345817d5d002ecc3b1a1a7002d83630ae462956fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"hc70oE4alVHS64sa1R3vQ_3ETf6aLKdL\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/cimi/backend/web/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'zhangzeen.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://zhangzeen.cn/cimi/backend/'
+    'HTTP_COOKIE' => 'advanced-frontend=u1u7j3e9urko2piaokmtendun0; _csrf-frontend=8c5a70d6fc95933f4c41c9aa345817d5d002ecc3b1a1a7002d83630ae462956fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22hc70oE4alVHS64sa1R3vQ_3ETf6aLKdL%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at zhangzeen.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'zhangzeen.cn'
+    'SERVER_ADDR' => '172.17.32.61'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '116.226.176.36'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/cimi/backend/web/index.php'
+    'REMOTE_PORT' => '49674'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cimi/backend/web/'
+    'SCRIPT_NAME' => '/cimi/backend/web/index.php'
+    'PHP_SELF' => '/cimi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522203785.116
+    'REQUEST_TIME' => 1522203785
+]
+2018-03-28 02:23:05 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+    in /var/www/html/cimi/backend/views/layouts/main.php:77
+    in /var/www/html/cimi/backend/controllers/SiteController.php:84
+2018-03-28 02:23:05 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+2018-03-28 02:23:05 [116.226.176.36][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'u1u7j3e9urko2piaokmtendun0'
+    '_csrf-frontend' => '8c5a70d6fc95933f4c41c9aa345817d5d002ecc3b1a1a7002d83630ae462956fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"hc70oE4alVHS64sa1R3vQ_3ETf6aLKdL\";}'
+    'advanced-backend' => '0co4aj0er963sirkaeaqb7n746'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/cimi/backend/web/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'zhangzeen.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://zhangzeen.cn/cimi/backend/'
+    'HTTP_COOKIE' => 'advanced-frontend=u1u7j3e9urko2piaokmtendun0; _csrf-frontend=8c5a70d6fc95933f4c41c9aa345817d5d002ecc3b1a1a7002d83630ae462956fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22hc70oE4alVHS64sa1R3vQ_3ETf6aLKdL%22%3B%7D; advanced-backend=0co4aj0er963sirkaeaqb7n746'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at zhangzeen.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'zhangzeen.cn'
+    'SERVER_ADDR' => '172.17.32.61'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '116.226.176.36'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/cimi/backend/web/index.php'
+    'REMOTE_PORT' => '49674'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/cimi/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/cimi/backend/web/index.php'
+    'PHP_SELF' => '/cimi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522203785.156
+    'REQUEST_TIME' => 1522203785
+]
+2018-03-28 02:23:07 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+2018-03-28 02:23:07 [116.226.176.36][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'u1u7j3e9urko2piaokmtendun0'
+    '_csrf-frontend' => '8c5a70d6fc95933f4c41c9aa345817d5d002ecc3b1a1a7002d83630ae462956fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"hc70oE4alVHS64sa1R3vQ_3ETf6aLKdL\";}'
+    'advanced-backend' => '0co4aj0er963sirkaeaqb7n746'
+    '_csrf-backend' => 'b470f532e3cfa2d73f7ed619e5880f5c4ad31d5b54f524ea117111c498385813a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"H-bRgqLtbyOrtRLcPMkrr1hXYG5ZNGZX\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/cimi/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'zhangzeen.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://zhangzeen.cn/cimi/backend/web/index.php?r=site%2Flogin'
+    'HTTP_COOKIE' => 'advanced-frontend=u1u7j3e9urko2piaokmtendun0; _csrf-frontend=8c5a70d6fc95933f4c41c9aa345817d5d002ecc3b1a1a7002d83630ae462956fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22hc70oE4alVHS64sa1R3vQ_3ETf6aLKdL%22%3B%7D; advanced-backend=0co4aj0er963sirkaeaqb7n746; _csrf-backend=b470f532e3cfa2d73f7ed619e5880f5c4ad31d5b54f524ea117111c498385813a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22H-bRgqLtbyOrtRLcPMkrr1hXYG5ZNGZX%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at zhangzeen.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'zhangzeen.cn'
+    'SERVER_ADDR' => '172.17.32.61'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '116.226.176.36'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/cimi/backend/web/index.php'
+    'REMOTE_PORT' => '49680'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/cimi/backend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/cimi/backend/web/index.php'
+    'PHP_SELF' => '/cimi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522203787.636
+    'REQUEST_TIME' => 1522203787
+]
+2018-03-28 02:23:07 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+    in /var/www/html/cimi/backend/views/layouts/main.php:77
+    in /var/www/html/cimi/backend/controllers/SiteController.php:84
+2018-03-28 02:23:07 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+2018-03-28 02:23:07 [116.226.176.36][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'u1u7j3e9urko2piaokmtendun0'
+    '_csrf-frontend' => '8c5a70d6fc95933f4c41c9aa345817d5d002ecc3b1a1a7002d83630ae462956fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"hc70oE4alVHS64sa1R3vQ_3ETf6aLKdL\";}'
+    'advanced-backend' => '0co4aj0er963sirkaeaqb7n746'
+    '_csrf-backend' => 'b470f532e3cfa2d73f7ed619e5880f5c4ad31d5b54f524ea117111c498385813a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"H-bRgqLtbyOrtRLcPMkrr1hXYG5ZNGZX\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/cimi/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'zhangzeen.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://zhangzeen.cn/cimi/backend/web/index.php?r=site%2Flogin'
+    'HTTP_COOKIE' => 'advanced-frontend=u1u7j3e9urko2piaokmtendun0; _csrf-frontend=8c5a70d6fc95933f4c41c9aa345817d5d002ecc3b1a1a7002d83630ae462956fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22hc70oE4alVHS64sa1R3vQ_3ETf6aLKdL%22%3B%7D; advanced-backend=0co4aj0er963sirkaeaqb7n746; _csrf-backend=b470f532e3cfa2d73f7ed619e5880f5c4ad31d5b54f524ea117111c498385813a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22H-bRgqLtbyOrtRLcPMkrr1hXYG5ZNGZX%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at zhangzeen.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'zhangzeen.cn'
+    'SERVER_ADDR' => '172.17.32.61'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '116.226.176.36'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/cimi/backend/web/index.php'
+    'REMOTE_PORT' => '49680'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/cimi/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/cimi/backend/web/index.php'
+    'PHP_SELF' => '/cimi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522203787.677
+    'REQUEST_TIME' => 1522203787
+]
+2018-03-28 02:23:09 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+    in /var/www/html/cimi/backend/views/layouts/main.php:77
+    in /var/www/html/cimi/backend/controllers/SiteController.php:84
+2018-03-28 02:23:09 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+2018-03-28 02:23:09 [116.226.176.36][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'u1u7j3e9urko2piaokmtendun0'
+    '_csrf-frontend' => '8c5a70d6fc95933f4c41c9aa345817d5d002ecc3b1a1a7002d83630ae462956fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"hc70oE4alVHS64sa1R3vQ_3ETf6aLKdL\";}'
+    'advanced-backend' => '0co4aj0er963sirkaeaqb7n746'
+    '_csrf-backend' => 'b470f532e3cfa2d73f7ed619e5880f5c4ad31d5b54f524ea117111c498385813a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"H-bRgqLtbyOrtRLcPMkrr1hXYG5ZNGZX\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/cimi/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'zhangzeen.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://zhangzeen.cn/cimi/backend/web/index.php?r=site%2Flogin'
+    'HTTP_COOKIE' => 'advanced-frontend=u1u7j3e9urko2piaokmtendun0; _csrf-frontend=8c5a70d6fc95933f4c41c9aa345817d5d002ecc3b1a1a7002d83630ae462956fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22hc70oE4alVHS64sa1R3vQ_3ETf6aLKdL%22%3B%7D; advanced-backend=0co4aj0er963sirkaeaqb7n746; _csrf-backend=b470f532e3cfa2d73f7ed619e5880f5c4ad31d5b54f524ea117111c498385813a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22H-bRgqLtbyOrtRLcPMkrr1hXYG5ZNGZX%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at zhangzeen.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'zhangzeen.cn'
+    'SERVER_ADDR' => '172.17.32.61'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '116.226.176.36'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/cimi/backend/web/index.php'
+    'REMOTE_PORT' => '49680'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/cimi/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/cimi/backend/web/index.php'
+    'PHP_SELF' => '/cimi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522203789.075
+    'REQUEST_TIME' => 1522203789
+]
+2018-03-28 02:28:35 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+2018-03-28 02:28:35 [116.226.176.36][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'u1u7j3e9urko2piaokmtendun0'
+    '_csrf-frontend' => '8c5a70d6fc95933f4c41c9aa345817d5d002ecc3b1a1a7002d83630ae462956fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"hc70oE4alVHS64sa1R3vQ_3ETf6aLKdL\";}'
+    'advanced-backend' => '0co4aj0er963sirkaeaqb7n746'
+    '_csrf-backend' => 'b470f532e3cfa2d73f7ed619e5880f5c4ad31d5b54f524ea117111c498385813a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"H-bRgqLtbyOrtRLcPMkrr1hXYG5ZNGZX\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/cimi/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'zhangzeen.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://zhangzeen.cn/cimi/backend/web/index.php?r=site%2Flogin'
+    'HTTP_COOKIE' => 'advanced-frontend=u1u7j3e9urko2piaokmtendun0; _csrf-frontend=8c5a70d6fc95933f4c41c9aa345817d5d002ecc3b1a1a7002d83630ae462956fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22hc70oE4alVHS64sa1R3vQ_3ETf6aLKdL%22%3B%7D; advanced-backend=0co4aj0er963sirkaeaqb7n746; _csrf-backend=b470f532e3cfa2d73f7ed619e5880f5c4ad31d5b54f524ea117111c498385813a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22H-bRgqLtbyOrtRLcPMkrr1hXYG5ZNGZX%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at zhangzeen.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'zhangzeen.cn'
+    'SERVER_ADDR' => '172.17.32.61'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '116.226.176.36'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/cimi/backend/web/index.php'
+    'REMOTE_PORT' => '50102'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/cimi/backend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/cimi/backend/web/index.php'
+    'PHP_SELF' => '/cimi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522204115.514
+    'REQUEST_TIME' => 1522204115
+]
+2018-03-28 02:28:35 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+    in /var/www/html/cimi/backend/views/layouts/main.php:77
+    in /var/www/html/cimi/backend/controllers/SiteController.php:84
+2018-03-28 02:28:35 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+2018-03-28 02:28:35 [116.226.176.36][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'u1u7j3e9urko2piaokmtendun0'
+    '_csrf-frontend' => '8c5a70d6fc95933f4c41c9aa345817d5d002ecc3b1a1a7002d83630ae462956fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"hc70oE4alVHS64sa1R3vQ_3ETf6aLKdL\";}'
+    'advanced-backend' => '0co4aj0er963sirkaeaqb7n746'
+    '_csrf-backend' => 'b470f532e3cfa2d73f7ed619e5880f5c4ad31d5b54f524ea117111c498385813a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"H-bRgqLtbyOrtRLcPMkrr1hXYG5ZNGZX\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/cimi/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'zhangzeen.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://zhangzeen.cn/cimi/backend/web/index.php?r=site%2Flogin'
+    'HTTP_COOKIE' => 'advanced-frontend=u1u7j3e9urko2piaokmtendun0; _csrf-frontend=8c5a70d6fc95933f4c41c9aa345817d5d002ecc3b1a1a7002d83630ae462956fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22hc70oE4alVHS64sa1R3vQ_3ETf6aLKdL%22%3B%7D; advanced-backend=0co4aj0er963sirkaeaqb7n746; _csrf-backend=b470f532e3cfa2d73f7ed619e5880f5c4ad31d5b54f524ea117111c498385813a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22H-bRgqLtbyOrtRLcPMkrr1hXYG5ZNGZX%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at zhangzeen.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'zhangzeen.cn'
+    'SERVER_ADDR' => '172.17.32.61'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '116.226.176.36'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/cimi/backend/web/index.php'
+    'REMOTE_PORT' => '50102'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/cimi/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/cimi/backend/web/index.php'
+    'PHP_SELF' => '/cimi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522204115.555
+    'REQUEST_TIME' => 1522204115
+]
+2018-03-28 02:32:15 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+2018-03-28 02:32:15 [116.226.176.36][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'u1u7j3e9urko2piaokmtendun0'
+    '_csrf-frontend' => '8c5a70d6fc95933f4c41c9aa345817d5d002ecc3b1a1a7002d83630ae462956fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"hc70oE4alVHS64sa1R3vQ_3ETf6aLKdL\";}'
+    'advanced-backend' => '0co4aj0er963sirkaeaqb7n746'
+    '_csrf-backend' => 'b470f532e3cfa2d73f7ed619e5880f5c4ad31d5b54f524ea117111c498385813a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"H-bRgqLtbyOrtRLcPMkrr1hXYG5ZNGZX\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/cimi/backend/web/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'zhangzeen.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://zhangzeen.cn/cimi/backend/'
+    'HTTP_COOKIE' => 'advanced-frontend=u1u7j3e9urko2piaokmtendun0; _csrf-frontend=8c5a70d6fc95933f4c41c9aa345817d5d002ecc3b1a1a7002d83630ae462956fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22hc70oE4alVHS64sa1R3vQ_3ETf6aLKdL%22%3B%7D; advanced-backend=0co4aj0er963sirkaeaqb7n746; _csrf-backend=b470f532e3cfa2d73f7ed619e5880f5c4ad31d5b54f524ea117111c498385813a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22H-bRgqLtbyOrtRLcPMkrr1hXYG5ZNGZX%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at zhangzeen.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'zhangzeen.cn'
+    'SERVER_ADDR' => '172.17.32.61'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '116.226.176.36'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/cimi/backend/web/index.php'
+    'REMOTE_PORT' => '50232'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cimi/backend/web/'
+    'SCRIPT_NAME' => '/cimi/backend/web/index.php'
+    'PHP_SELF' => '/cimi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522204335.203
+    'REQUEST_TIME' => 1522204335
+]
+2018-03-28 02:32:15 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+    in /var/www/html/cimi/backend/views/layouts/main.php:77
+    in /var/www/html/cimi/backend/controllers/SiteController.php:84
+2018-03-28 02:32:15 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+2018-03-28 02:32:15 [116.226.176.36][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'u1u7j3e9urko2piaokmtendun0'
+    '_csrf-frontend' => '8c5a70d6fc95933f4c41c9aa345817d5d002ecc3b1a1a7002d83630ae462956fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"hc70oE4alVHS64sa1R3vQ_3ETf6aLKdL\";}'
+    'advanced-backend' => '0co4aj0er963sirkaeaqb7n746'
+    '_csrf-backend' => 'b470f532e3cfa2d73f7ed619e5880f5c4ad31d5b54f524ea117111c498385813a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"H-bRgqLtbyOrtRLcPMkrr1hXYG5ZNGZX\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/cimi/backend/web/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'zhangzeen.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://zhangzeen.cn/cimi/backend/'
+    'HTTP_COOKIE' => 'advanced-frontend=u1u7j3e9urko2piaokmtendun0; _csrf-frontend=8c5a70d6fc95933f4c41c9aa345817d5d002ecc3b1a1a7002d83630ae462956fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22hc70oE4alVHS64sa1R3vQ_3ETf6aLKdL%22%3B%7D; advanced-backend=0co4aj0er963sirkaeaqb7n746; _csrf-backend=b470f532e3cfa2d73f7ed619e5880f5c4ad31d5b54f524ea117111c498385813a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22H-bRgqLtbyOrtRLcPMkrr1hXYG5ZNGZX%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at zhangzeen.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'zhangzeen.cn'
+    'SERVER_ADDR' => '172.17.32.61'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '116.226.176.36'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/cimi/backend/web/index.php'
+    'REMOTE_PORT' => '50232'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/cimi/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/cimi/backend/web/index.php'
+    'PHP_SELF' => '/cimi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522204335.242
+    'REQUEST_TIME' => 1522204335
+]
+2018-03-28 02:32:17 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+2018-03-28 02:32:17 [116.226.176.36][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'u1u7j3e9urko2piaokmtendun0'
+    '_csrf-frontend' => '8c5a70d6fc95933f4c41c9aa345817d5d002ecc3b1a1a7002d83630ae462956fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"hc70oE4alVHS64sa1R3vQ_3ETf6aLKdL\";}'
+    'advanced-backend' => '0co4aj0er963sirkaeaqb7n746'
+    '_csrf-backend' => 'b470f532e3cfa2d73f7ed619e5880f5c4ad31d5b54f524ea117111c498385813a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"H-bRgqLtbyOrtRLcPMkrr1hXYG5ZNGZX\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/cimi/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'zhangzeen.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://zhangzeen.cn/cimi/backend/web/index.php?r=site%2Flogin'
+    'HTTP_COOKIE' => 'advanced-frontend=u1u7j3e9urko2piaokmtendun0; _csrf-frontend=8c5a70d6fc95933f4c41c9aa345817d5d002ecc3b1a1a7002d83630ae462956fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22hc70oE4alVHS64sa1R3vQ_3ETf6aLKdL%22%3B%7D; advanced-backend=0co4aj0er963sirkaeaqb7n746; _csrf-backend=b470f532e3cfa2d73f7ed619e5880f5c4ad31d5b54f524ea117111c498385813a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22H-bRgqLtbyOrtRLcPMkrr1hXYG5ZNGZX%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at zhangzeen.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'zhangzeen.cn'
+    'SERVER_ADDR' => '172.17.32.61'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '116.226.176.36'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/cimi/backend/web/index.php'
+    'REMOTE_PORT' => '50236'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/cimi/backend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/cimi/backend/web/index.php'
+    'PHP_SELF' => '/cimi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522204337.967
+    'REQUEST_TIME' => 1522204337
+]
+2018-03-28 02:32:18 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+    in /var/www/html/cimi/backend/views/layouts/main.php:77
+    in /var/www/html/cimi/backend/controllers/SiteController.php:84
+2018-03-28 02:32:18 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+2018-03-28 02:32:18 [116.226.176.36][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'u1u7j3e9urko2piaokmtendun0'
+    '_csrf-frontend' => '8c5a70d6fc95933f4c41c9aa345817d5d002ecc3b1a1a7002d83630ae462956fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"hc70oE4alVHS64sa1R3vQ_3ETf6aLKdL\";}'
+    'advanced-backend' => '0co4aj0er963sirkaeaqb7n746'
+    '_csrf-backend' => 'b470f532e3cfa2d73f7ed619e5880f5c4ad31d5b54f524ea117111c498385813a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"H-bRgqLtbyOrtRLcPMkrr1hXYG5ZNGZX\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/cimi/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'zhangzeen.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://zhangzeen.cn/cimi/backend/web/index.php?r=site%2Flogin'
+    'HTTP_COOKIE' => 'advanced-frontend=u1u7j3e9urko2piaokmtendun0; _csrf-frontend=8c5a70d6fc95933f4c41c9aa345817d5d002ecc3b1a1a7002d83630ae462956fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22hc70oE4alVHS64sa1R3vQ_3ETf6aLKdL%22%3B%7D; advanced-backend=0co4aj0er963sirkaeaqb7n746; _csrf-backend=b470f532e3cfa2d73f7ed619e5880f5c4ad31d5b54f524ea117111c498385813a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22H-bRgqLtbyOrtRLcPMkrr1hXYG5ZNGZX%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at zhangzeen.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'zhangzeen.cn'
+    'SERVER_ADDR' => '172.17.32.61'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '116.226.176.36'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/cimi/backend/web/index.php'
+    'REMOTE_PORT' => '50236'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/cimi/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/cimi/backend/web/index.php'
+    'PHP_SELF' => '/cimi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522204338.017
+    'REQUEST_TIME' => 1522204338
+]
+2018-03-28 02:32:18 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+    in /var/www/html/cimi/backend/views/layouts/main.php:77
+    in /var/www/html/cimi/backend/controllers/SiteController.php:84
+2018-03-28 02:32:18 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+2018-03-28 02:32:18 [116.226.176.36][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'u1u7j3e9urko2piaokmtendun0'
+    '_csrf-frontend' => '8c5a70d6fc95933f4c41c9aa345817d5d002ecc3b1a1a7002d83630ae462956fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"hc70oE4alVHS64sa1R3vQ_3ETf6aLKdL\";}'
+    'advanced-backend' => '0co4aj0er963sirkaeaqb7n746'
+    '_csrf-backend' => 'b470f532e3cfa2d73f7ed619e5880f5c4ad31d5b54f524ea117111c498385813a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"H-bRgqLtbyOrtRLcPMkrr1hXYG5ZNGZX\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/cimi/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'zhangzeen.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://zhangzeen.cn/cimi/backend/web/index.php?r=site%2Flogin'
+    'HTTP_COOKIE' => 'advanced-frontend=u1u7j3e9urko2piaokmtendun0; _csrf-frontend=8c5a70d6fc95933f4c41c9aa345817d5d002ecc3b1a1a7002d83630ae462956fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22hc70oE4alVHS64sa1R3vQ_3ETf6aLKdL%22%3B%7D; advanced-backend=0co4aj0er963sirkaeaqb7n746; _csrf-backend=b470f532e3cfa2d73f7ed619e5880f5c4ad31d5b54f524ea117111c498385813a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22H-bRgqLtbyOrtRLcPMkrr1hXYG5ZNGZX%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at zhangzeen.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'zhangzeen.cn'
+    'SERVER_ADDR' => '172.17.32.61'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '116.226.176.36'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/cimi/backend/web/index.php'
+    'REMOTE_PORT' => '50236'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/cimi/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/cimi/backend/web/index.php'
+    'PHP_SELF' => '/cimi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522204338.803
+    'REQUEST_TIME' => 1522204338
+]
+2018-03-28 02:33:40 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+2018-03-28 02:33:40 [116.226.176.36][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'keerq23i51kurktsa3nnir1663'
+    '_csrf-frontend' => '9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA\";}'
+    'advanced-backend' => '0co4aj0er963sirkaeaqb7n746'
+    '_csrf-backend' => 'b470f532e3cfa2d73f7ed619e5880f5c4ad31d5b54f524ea117111c498385813a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"H-bRgqLtbyOrtRLcPMkrr1hXYG5ZNGZX\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/cimi/backend/web/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'zhangzeen.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://zhangzeen.cn/cimi/backend/'
+    'HTTP_COOKIE' => 'advanced-frontend=keerq23i51kurktsa3nnir1663; _csrf-frontend=9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA%22%3B%7D; advanced-backend=0co4aj0er963sirkaeaqb7n746; _csrf-backend=b470f532e3cfa2d73f7ed619e5880f5c4ad31d5b54f524ea117111c498385813a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22H-bRgqLtbyOrtRLcPMkrr1hXYG5ZNGZX%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at zhangzeen.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'zhangzeen.cn'
+    'SERVER_ADDR' => '172.17.32.61'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '116.226.176.36'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/cimi/backend/web/index.php'
+    'REMOTE_PORT' => '50348'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cimi/backend/web/'
+    'SCRIPT_NAME' => '/cimi/backend/web/index.php'
+    'PHP_SELF' => '/cimi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522204420.44
+    'REQUEST_TIME' => 1522204420
+]
+2018-03-28 02:33:40 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+    in /var/www/html/cimi/backend/views/layouts/main.php:77
+    in /var/www/html/cimi/backend/controllers/SiteController.php:84
+2018-03-28 02:33:40 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+2018-03-28 02:33:40 [116.226.176.36][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'keerq23i51kurktsa3nnir1663'
+    '_csrf-frontend' => '9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA\";}'
+    'advanced-backend' => '0co4aj0er963sirkaeaqb7n746'
+    '_csrf-backend' => 'b470f532e3cfa2d73f7ed619e5880f5c4ad31d5b54f524ea117111c498385813a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"H-bRgqLtbyOrtRLcPMkrr1hXYG5ZNGZX\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/cimi/backend/web/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'zhangzeen.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://zhangzeen.cn/cimi/backend/'
+    'HTTP_COOKIE' => 'advanced-frontend=keerq23i51kurktsa3nnir1663; _csrf-frontend=9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA%22%3B%7D; advanced-backend=0co4aj0er963sirkaeaqb7n746; _csrf-backend=b470f532e3cfa2d73f7ed619e5880f5c4ad31d5b54f524ea117111c498385813a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22H-bRgqLtbyOrtRLcPMkrr1hXYG5ZNGZX%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at zhangzeen.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'zhangzeen.cn'
+    'SERVER_ADDR' => '172.17.32.61'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '116.226.176.36'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/cimi/backend/web/index.php'
+    'REMOTE_PORT' => '50348'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/cimi/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/cimi/backend/web/index.php'
+    'PHP_SELF' => '/cimi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522204420.708
+    'REQUEST_TIME' => 1522204420
+]
+2018-03-28 02:33:50 [116.226.176.36][6][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+2018-03-28 02:33:50 [116.226.176.36][6][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf-backend' => 'mVPhevqa0Chfqu4Zz2f14P_xQQ0igDv2dXbbtSUS3XTRfoMoneucXD3ToWu7NbmDr7wqf1CxU64sMe7va1WHLA=='
+    'LoginForm' => [
+        'username' => 'test'
+        'password' => '123456'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'keerq23i51kurktsa3nnir1663'
+    '_csrf-frontend' => '9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA\";}'
+    'advanced-backend' => '0co4aj0er963sirkaeaqb7n746'
+    '_csrf-backend' => 'b470f532e3cfa2d73f7ed619e5880f5c4ad31d5b54f524ea117111c498385813a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"H-bRgqLtbyOrtRLcPMkrr1hXYG5ZNGZX\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/cimi/backend/web/'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'zhangzeen.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://zhangzeen.cn/cimi/backend/web/index.php?r=site%2Flogin'
+    'HTTP_COOKIE' => 'advanced-frontend=keerq23i51kurktsa3nnir1663; _csrf-frontend=9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA%22%3B%7D; advanced-backend=0co4aj0er963sirkaeaqb7n746; _csrf-backend=b470f532e3cfa2d73f7ed619e5880f5c4ad31d5b54f524ea117111c498385813a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22H-bRgqLtbyOrtRLcPMkrr1hXYG5ZNGZX%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '236'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at zhangzeen.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'zhangzeen.cn'
+    'SERVER_ADDR' => '172.17.32.61'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '116.226.176.36'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/cimi/backend/web/index.php'
+    'REMOTE_PORT' => '50360'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/cimi/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/cimi/backend/web/index.php'
+    'PHP_SELF' => '/cimi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522204430.061
+    'REQUEST_TIME' => 1522204430
+]
+2018-03-28 02:33:50 [116.226.176.36][6][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+    in /var/www/html/cimi/backend/views/layouts/main.php:77
+    in /var/www/html/cimi/backend/controllers/SiteController.php:63
+2018-03-28 02:33:50 [116.226.176.36][6][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+2018-03-28 02:33:50 [116.226.176.36][6][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'keerq23i51kurktsa3nnir1663'
+    '_csrf-frontend' => '9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA\";}'
+    'advanced-backend' => '6rngb8fhn44hlh87318ipglbj1'
+    '_csrf-backend' => '1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL\";}'
+    '_identity-backend' => 'e5318ea61dec630fe9780f60d39f3c07f0c8ef64df62fbfa306de5451f7d33daa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"JLQHU_rCDDKH_kqrM356e1sUmx6Efi74\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/cimi/backend/web/'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'zhangzeen.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://zhangzeen.cn/cimi/backend/web/index.php?r=site%2Flogin'
+    'HTTP_COOKIE' => 'advanced-frontend=keerq23i51kurktsa3nnir1663; _csrf-frontend=9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA%22%3B%7D; advanced-backend=6rngb8fhn44hlh87318ipglbj1; _csrf-backend=1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL%22%3B%7D; _identity-backend=e5318ea61dec630fe9780f60d39f3c07f0c8ef64df62fbfa306de5451f7d33daa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22JLQHU_rCDDKH_kqrM356e1sUmx6Efi74%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at zhangzeen.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'zhangzeen.cn'
+    'SERVER_ADDR' => '172.17.32.61'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '116.226.176.36'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/cimi/backend/web/index.php'
+    'REMOTE_PORT' => '50360'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cimi/backend/web/'
+    'SCRIPT_NAME' => '/cimi/backend/web/index.php'
+    'PHP_SELF' => '/cimi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522204430.635
+    'REQUEST_TIME' => 1522204430
+]
+2018-03-28 02:33:53 [116.226.176.36][6][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+    in /var/www/html/cimi/backend/views/layouts/main.php:77
+    in /var/www/html/cimi/backend/controllers/SiteController.php:63
+2018-03-28 02:33:53 [116.226.176.36][6][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+2018-03-28 02:33:53 [116.226.176.36][6][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'keerq23i51kurktsa3nnir1663'
+    '_csrf-frontend' => '9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA\";}'
+    'advanced-backend' => '6rngb8fhn44hlh87318ipglbj1'
+    '_csrf-backend' => '1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL\";}'
+    '_identity-backend' => 'e5318ea61dec630fe9780f60d39f3c07f0c8ef64df62fbfa306de5451f7d33daa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"JLQHU_rCDDKH_kqrM356e1sUmx6Efi74\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/cimi/backend/web/'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'zhangzeen.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://zhangzeen.cn/cimi/backend/web/'
+    'HTTP_COOKIE' => 'advanced-frontend=keerq23i51kurktsa3nnir1663; _csrf-frontend=9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA%22%3B%7D; advanced-backend=6rngb8fhn44hlh87318ipglbj1; _csrf-backend=1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL%22%3B%7D; _identity-backend=e5318ea61dec630fe9780f60d39f3c07f0c8ef64df62fbfa306de5451f7d33daa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22JLQHU_rCDDKH_kqrM356e1sUmx6Efi74%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at zhangzeen.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'zhangzeen.cn'
+    'SERVER_ADDR' => '172.17.32.61'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '116.226.176.36'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/cimi/backend/web/index.php'
+    'REMOTE_PORT' => '50360'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/cimi/backend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/cimi/backend/web/index.php'
+    'PHP_SELF' => '/cimi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522204433.58
+    'REQUEST_TIME' => 1522204433
+]
+2018-03-28 02:33:57 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+2018-03-28 02:33:57 [116.226.176.36][-][-][info][application] $_GET = [
+    'r' => 'site/logout'
+]
+
+$_POST = [
+    '_csrf-backend' => 'QuqkPJXhmvkxDo9RqBY4FRZaCPj8xZ0u3w4b04eBrRcM2sZMwojcqF1c1zjSf0lFY2huvKyh-ByVSGqM0cvCWw=='
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'keerq23i51kurktsa3nnir1663'
+    '_csrf-frontend' => '9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA\";}'
+    'advanced-backend' => '6rngb8fhn44hlh87318ipglbj1'
+    '_csrf-backend' => '1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL\";}'
+    '_identity-backend' => 'e5318ea61dec630fe9780f60d39f3c07f0c8ef64df62fbfa306de5451f7d33daa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"JLQHU_rCDDKH_kqrM356e1sUmx6Efi74\",2592000]\";}'
+]
+
+$_SESSION = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'zhangzeen.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://zhangzeen.cn/cimi/backend/web/index.php?r=site%2Findex'
+    'HTTP_COOKIE' => 'advanced-frontend=keerq23i51kurktsa3nnir1663; _csrf-frontend=9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA%22%3B%7D; advanced-backend=6rngb8fhn44hlh87318ipglbj1; _csrf-backend=1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL%22%3B%7D; _identity-backend=e5318ea61dec630fe9780f60d39f3c07f0c8ef64df62fbfa306de5451f7d33daa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22JLQHU_rCDDKH_kqrM356e1sUmx6Efi74%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '106'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at zhangzeen.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'zhangzeen.cn'
+    'SERVER_ADDR' => '172.17.32.61'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '116.226.176.36'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/cimi/backend/web/index.php'
+    'REMOTE_PORT' => '50360'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogout'
+    'REQUEST_URI' => '/cimi/backend/web/index.php?r=site%2Flogout'
+    'SCRIPT_NAME' => '/cimi/backend/web/index.php'
+    'PHP_SELF' => '/cimi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522204437.116
+    'REQUEST_TIME' => 1522204437
+]
+2018-03-28 02:33:57 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+2018-03-28 02:33:57 [116.226.176.36][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'keerq23i51kurktsa3nnir1663'
+    '_csrf-frontend' => '9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA\";}'
+    'advanced-backend' => 'qdeu4gcebjbtnqhr8ki8dgif93'
+    '_csrf-backend' => '1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/cimi/backend/web/index.php'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'zhangzeen.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://zhangzeen.cn/cimi/backend/web/index.php?r=site%2Findex'
+    'HTTP_COOKIE' => 'advanced-frontend=keerq23i51kurktsa3nnir1663; _csrf-frontend=9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA%22%3B%7D; advanced-backend=qdeu4gcebjbtnqhr8ki8dgif93; _csrf-backend=1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at zhangzeen.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'zhangzeen.cn'
+    'SERVER_ADDR' => '172.17.32.61'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '116.226.176.36'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/cimi/backend/web/index.php'
+    'REMOTE_PORT' => '50360'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cimi/backend/web/index.php'
+    'SCRIPT_NAME' => '/cimi/backend/web/index.php'
+    'PHP_SELF' => '/cimi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522204437.175
+    'REQUEST_TIME' => 1522204437
+]
+2018-03-28 02:33:57 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+    in /var/www/html/cimi/backend/views/layouts/main.php:77
+    in /var/www/html/cimi/backend/controllers/SiteController.php:84
+2018-03-28 02:33:57 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+2018-03-28 02:33:57 [116.226.176.36][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'keerq23i51kurktsa3nnir1663'
+    '_csrf-frontend' => '9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA\";}'
+    'advanced-backend' => 'qdeu4gcebjbtnqhr8ki8dgif93'
+    '_csrf-backend' => '1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/cimi/backend/web/index.php'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'zhangzeen.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://zhangzeen.cn/cimi/backend/web/index.php?r=site%2Findex'
+    'HTTP_COOKIE' => 'advanced-frontend=keerq23i51kurktsa3nnir1663; _csrf-frontend=9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA%22%3B%7D; advanced-backend=qdeu4gcebjbtnqhr8ki8dgif93; _csrf-backend=1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at zhangzeen.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'zhangzeen.cn'
+    'SERVER_ADDR' => '172.17.32.61'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '116.226.176.36'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/cimi/backend/web/index.php'
+    'REMOTE_PORT' => '50360'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/cimi/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/cimi/backend/web/index.php'
+    'PHP_SELF' => '/cimi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522204437.212
+    'REQUEST_TIME' => 1522204437
+]
+2018-03-28 02:33:58 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+2018-03-28 02:33:58 [116.226.176.36][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'keerq23i51kurktsa3nnir1663'
+    '_csrf-frontend' => '9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA\";}'
+    'advanced-backend' => 'qdeu4gcebjbtnqhr8ki8dgif93'
+    '_csrf-backend' => '1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/cimi/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'zhangzeen.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://zhangzeen.cn/cimi/backend/web/index.php?r=site%2Flogin'
+    'HTTP_COOKIE' => 'advanced-frontend=keerq23i51kurktsa3nnir1663; _csrf-frontend=9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA%22%3B%7D; advanced-backend=qdeu4gcebjbtnqhr8ki8dgif93; _csrf-backend=1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at zhangzeen.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'zhangzeen.cn'
+    'SERVER_ADDR' => '172.17.32.61'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '116.226.176.36'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/cimi/backend/web/index.php'
+    'REMOTE_PORT' => '50360'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/cimi/backend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/cimi/backend/web/index.php'
+    'PHP_SELF' => '/cimi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522204438.604
+    'REQUEST_TIME' => 1522204438
+]
+2018-03-28 02:33:58 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+    in /var/www/html/cimi/backend/views/layouts/main.php:77
+    in /var/www/html/cimi/backend/controllers/SiteController.php:84
+2018-03-28 02:33:58 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+2018-03-28 02:33:58 [116.226.176.36][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'keerq23i51kurktsa3nnir1663'
+    '_csrf-frontend' => '9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA\";}'
+    'advanced-backend' => 'qdeu4gcebjbtnqhr8ki8dgif93'
+    '_csrf-backend' => '1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/cimi/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'zhangzeen.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://zhangzeen.cn/cimi/backend/web/index.php?r=site%2Flogin'
+    'HTTP_COOKIE' => 'advanced-frontend=keerq23i51kurktsa3nnir1663; _csrf-frontend=9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA%22%3B%7D; advanced-backend=qdeu4gcebjbtnqhr8ki8dgif93; _csrf-backend=1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at zhangzeen.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'zhangzeen.cn'
+    'SERVER_ADDR' => '172.17.32.61'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '116.226.176.36'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/cimi/backend/web/index.php'
+    'REMOTE_PORT' => '50360'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/cimi/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/cimi/backend/web/index.php'
+    'PHP_SELF' => '/cimi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522204438.642
+    'REQUEST_TIME' => 1522204438
+]
+2018-03-28 02:34:00 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+2018-03-28 02:34:00 [116.226.176.36][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'keerq23i51kurktsa3nnir1663'
+    '_csrf-frontend' => '9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA\";}'
+    'advanced-backend' => 'qdeu4gcebjbtnqhr8ki8dgif93'
+    '_csrf-backend' => '1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/cimi/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'zhangzeen.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://zhangzeen.cn/cimi/backend/web/index.php?r=site%2Flogin'
+    'HTTP_COOKIE' => 'advanced-frontend=keerq23i51kurktsa3nnir1663; _csrf-frontend=9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA%22%3B%7D; advanced-backend=qdeu4gcebjbtnqhr8ki8dgif93; _csrf-backend=1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at zhangzeen.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'zhangzeen.cn'
+    'SERVER_ADDR' => '172.17.32.61'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '116.226.176.36'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/cimi/backend/web/index.php'
+    'REMOTE_PORT' => '50360'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/cimi/backend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/cimi/backend/web/index.php'
+    'PHP_SELF' => '/cimi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522204440.598
+    'REQUEST_TIME' => 1522204440
+]
+2018-03-28 02:34:00 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+    in /var/www/html/cimi/backend/views/layouts/main.php:77
+    in /var/www/html/cimi/backend/controllers/SiteController.php:84
+2018-03-28 02:34:00 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+2018-03-28 02:34:00 [116.226.176.36][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'keerq23i51kurktsa3nnir1663'
+    '_csrf-frontend' => '9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA\";}'
+    'advanced-backend' => 'qdeu4gcebjbtnqhr8ki8dgif93'
+    '_csrf-backend' => '1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/cimi/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'zhangzeen.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://zhangzeen.cn/cimi/backend/web/index.php?r=site%2Flogin'
+    'HTTP_COOKIE' => 'advanced-frontend=keerq23i51kurktsa3nnir1663; _csrf-frontend=9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA%22%3B%7D; advanced-backend=qdeu4gcebjbtnqhr8ki8dgif93; _csrf-backend=1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at zhangzeen.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'zhangzeen.cn'
+    'SERVER_ADDR' => '172.17.32.61'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '116.226.176.36'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/cimi/backend/web/index.php'
+    'REMOTE_PORT' => '50360'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/cimi/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/cimi/backend/web/index.php'
+    'PHP_SELF' => '/cimi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522204440.649
+    'REQUEST_TIME' => 1522204440
+]
+2018-03-28 02:34:01 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+2018-03-28 02:34:01 [116.226.176.36][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'keerq23i51kurktsa3nnir1663'
+    '_csrf-frontend' => '9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA\";}'
+    'advanced-backend' => 'qdeu4gcebjbtnqhr8ki8dgif93'
+    '_csrf-backend' => '1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/cimi/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'zhangzeen.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://zhangzeen.cn/cimi/backend/web/index.php?r=site%2Flogin'
+    'HTTP_COOKIE' => 'advanced-frontend=keerq23i51kurktsa3nnir1663; _csrf-frontend=9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA%22%3B%7D; advanced-backend=qdeu4gcebjbtnqhr8ki8dgif93; _csrf-backend=1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at zhangzeen.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'zhangzeen.cn'
+    'SERVER_ADDR' => '172.17.32.61'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '116.226.176.36'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/cimi/backend/web/index.php'
+    'REMOTE_PORT' => '50360'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/cimi/backend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/cimi/backend/web/index.php'
+    'PHP_SELF' => '/cimi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522204441.637
+    'REQUEST_TIME' => 1522204441
+]
+2018-03-28 02:34:01 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+    in /var/www/html/cimi/backend/views/layouts/main.php:77
+    in /var/www/html/cimi/backend/controllers/SiteController.php:84
+2018-03-28 02:34:01 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+2018-03-28 02:34:01 [116.226.176.36][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'keerq23i51kurktsa3nnir1663'
+    '_csrf-frontend' => '9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA\";}'
+    'advanced-backend' => 'qdeu4gcebjbtnqhr8ki8dgif93'
+    '_csrf-backend' => '1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/cimi/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'zhangzeen.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://zhangzeen.cn/cimi/backend/web/index.php?r=site%2Flogin'
+    'HTTP_COOKIE' => 'advanced-frontend=keerq23i51kurktsa3nnir1663; _csrf-frontend=9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA%22%3B%7D; advanced-backend=qdeu4gcebjbtnqhr8ki8dgif93; _csrf-backend=1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at zhangzeen.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'zhangzeen.cn'
+    'SERVER_ADDR' => '172.17.32.61'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '116.226.176.36'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/cimi/backend/web/index.php'
+    'REMOTE_PORT' => '50360'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/cimi/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/cimi/backend/web/index.php'
+    'PHP_SELF' => '/cimi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522204441.691
+    'REQUEST_TIME' => 1522204441
+]
+2018-03-28 02:34:02 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+    in /var/www/html/cimi/backend/views/layouts/main.php:77
+    in /var/www/html/cimi/backend/controllers/SiteController.php:84
+2018-03-28 02:34:02 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+2018-03-28 02:34:02 [116.226.176.36][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'keerq23i51kurktsa3nnir1663'
+    '_csrf-frontend' => '9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA\";}'
+    'advanced-backend' => 'qdeu4gcebjbtnqhr8ki8dgif93'
+    '_csrf-backend' => '1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/cimi/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'zhangzeen.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://zhangzeen.cn/cimi/backend/web/index.php?r=site%2Flogin'
+    'HTTP_COOKIE' => 'advanced-frontend=keerq23i51kurktsa3nnir1663; _csrf-frontend=9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA%22%3B%7D; advanced-backend=qdeu4gcebjbtnqhr8ki8dgif93; _csrf-backend=1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at zhangzeen.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'zhangzeen.cn'
+    'SERVER_ADDR' => '172.17.32.61'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '116.226.176.36'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/cimi/backend/web/index.php'
+    'REMOTE_PORT' => '50360'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/cimi/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/cimi/backend/web/index.php'
+    'PHP_SELF' => '/cimi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522204442.051
+    'REQUEST_TIME' => 1522204442
+]
+2018-03-28 02:34:02 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+    in /var/www/html/cimi/backend/views/layouts/main.php:77
+    in /var/www/html/cimi/backend/controllers/SiteController.php:84
+2018-03-28 02:34:02 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+2018-03-28 02:34:02 [116.226.176.36][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'keerq23i51kurktsa3nnir1663'
+    '_csrf-frontend' => '9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA\";}'
+    'advanced-backend' => 'qdeu4gcebjbtnqhr8ki8dgif93'
+    '_csrf-backend' => '1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/cimi/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'zhangzeen.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://zhangzeen.cn/cimi/backend/web/index.php?r=site%2Flogin'
+    'HTTP_COOKIE' => 'advanced-frontend=keerq23i51kurktsa3nnir1663; _csrf-frontend=9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA%22%3B%7D; advanced-backend=qdeu4gcebjbtnqhr8ki8dgif93; _csrf-backend=1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at zhangzeen.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'zhangzeen.cn'
+    'SERVER_ADDR' => '172.17.32.61'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '116.226.176.36'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/cimi/backend/web/index.php'
+    'REMOTE_PORT' => '50360'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/cimi/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/cimi/backend/web/index.php'
+    'PHP_SELF' => '/cimi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522204442.45
+    'REQUEST_TIME' => 1522204442
+]
+2018-03-28 02:47:59 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+2018-03-28 02:47:59 [116.226.176.36][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'keerq23i51kurktsa3nnir1663'
+    '_csrf-frontend' => '9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA\";}'
+    'advanced-backend' => 'qdeu4gcebjbtnqhr8ki8dgif93'
+    '_csrf-backend' => '1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/cimi/backend/web/index.php?r=site%2Flogin'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'zhangzeen.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://zhangzeen.cn/cimi/backend/web/index.php?r=site%2Flogin'
+    'HTTP_COOKIE' => 'advanced-frontend=keerq23i51kurktsa3nnir1663; _csrf-frontend=9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA%22%3B%7D; advanced-backend=qdeu4gcebjbtnqhr8ki8dgif93; _csrf-backend=1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at zhangzeen.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'zhangzeen.cn'
+    'SERVER_ADDR' => '172.17.32.61'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '116.226.176.36'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/cimi/backend/web/index.php'
+    'REMOTE_PORT' => '50506'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/cimi/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/cimi/backend/web/index.php'
+    'PHP_SELF' => '/cimi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522205279.176
+    'REQUEST_TIME' => 1522205279
+]
+2018-03-28 02:48:09 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+2018-03-28 02:48:09 [116.226.176.36][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'keerq23i51kurktsa3nnir1663'
+    '_csrf-frontend' => '9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA\";}'
+    'advanced-backend' => 'qdeu4gcebjbtnqhr8ki8dgif93'
+    '_csrf-backend' => '1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/cimi/backend/web/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'zhangzeen.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://zhangzeen.cn/cimi/backend/'
+    'HTTP_COOKIE' => 'advanced-frontend=keerq23i51kurktsa3nnir1663; _csrf-frontend=9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA%22%3B%7D; advanced-backend=qdeu4gcebjbtnqhr8ki8dgif93; _csrf-backend=1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at zhangzeen.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'zhangzeen.cn'
+    'SERVER_ADDR' => '172.17.32.61'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '116.226.176.36'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/cimi/backend/web/index.php'
+    'REMOTE_PORT' => '50508'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cimi/backend/web/'
+    'SCRIPT_NAME' => '/cimi/backend/web/index.php'
+    'PHP_SELF' => '/cimi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522205289.18
+    'REQUEST_TIME' => 1522205289
+]
+2018-03-28 02:56:25 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+2018-03-28 02:56:25 [116.226.176.36][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'keerq23i51kurktsa3nnir1663'
+    '_csrf-frontend' => '9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA\";}'
+    'advanced-backend' => 'qdeu4gcebjbtnqhr8ki8dgif93'
+    '_csrf-backend' => '1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/cimi/backend/web/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'zhangzeen.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://zhangzeen.cn/cimi/backend/'
+    'HTTP_COOKIE' => 'advanced-frontend=keerq23i51kurktsa3nnir1663; _csrf-frontend=9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA%22%3B%7D; advanced-backend=qdeu4gcebjbtnqhr8ki8dgif93; _csrf-backend=1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at zhangzeen.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'zhangzeen.cn'
+    'SERVER_ADDR' => '172.17.32.61'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '116.226.176.36'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/cimi/backend/web/index.php'
+    'REMOTE_PORT' => '50882'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cimi/backend/web/'
+    'SCRIPT_NAME' => '/cimi/backend/web/index.php'
+    'PHP_SELF' => '/cimi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522205785.72
+    'REQUEST_TIME' => 1522205785
+]
+2018-03-28 02:56:25 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+    in /var/www/html/cimi/backend/views/layouts/main.php:77
+    in /var/www/html/cimi/backend/controllers/SiteController.php:84
+2018-03-28 02:56:25 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+2018-03-28 02:56:25 [116.226.176.36][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'keerq23i51kurktsa3nnir1663'
+    '_csrf-frontend' => '9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA\";}'
+    'advanced-backend' => 'qdeu4gcebjbtnqhr8ki8dgif93'
+    '_csrf-backend' => '1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/cimi/backend/web/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'zhangzeen.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://zhangzeen.cn/cimi/backend/'
+    'HTTP_COOKIE' => 'advanced-frontend=keerq23i51kurktsa3nnir1663; _csrf-frontend=9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA%22%3B%7D; advanced-backend=qdeu4gcebjbtnqhr8ki8dgif93; _csrf-backend=1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at zhangzeen.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'zhangzeen.cn'
+    'SERVER_ADDR' => '172.17.32.61'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '116.226.176.36'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/cimi/backend/web/index.php'
+    'REMOTE_PORT' => '50882'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/cimi/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/cimi/backend/web/index.php'
+    'PHP_SELF' => '/cimi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522205785.767
+    'REQUEST_TIME' => 1522205785
+]
+2018-03-28 03:19:59 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+    in /var/www/html/cimi/backend/views/layouts/main.php:77
+    in /var/www/html/cimi/backend/controllers/SiteController.php:84
+2018-03-28 03:19:59 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+2018-03-28 03:19:58 [116.226.176.36][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'keerq23i51kurktsa3nnir1663'
+    '_csrf-frontend' => '9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA\";}'
+    'advanced-backend' => 'qdeu4gcebjbtnqhr8ki8dgif93'
+    '_csrf-backend' => '1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/cimi/backend/web/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'zhangzeen.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://zhangzeen.cn/cimi/backend/'
+    'HTTP_COOKIE' => 'advanced-frontend=keerq23i51kurktsa3nnir1663; _csrf-frontend=9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA%22%3B%7D; advanced-backend=qdeu4gcebjbtnqhr8ki8dgif93; _csrf-backend=1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at zhangzeen.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'zhangzeen.cn'
+    'SERVER_ADDR' => '172.17.32.61'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '116.226.176.36'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/cimi/backend/web/index.php'
+    'REMOTE_PORT' => '52258'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/cimi/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/cimi/backend/web/index.php'
+    'PHP_SELF' => '/cimi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522207198.961
+    'REQUEST_TIME' => 1522207198
+]
+2018-03-28 03:20:00 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+    in /var/www/html/cimi/backend/views/layouts/main.php:77
+    in /var/www/html/cimi/backend/controllers/SiteController.php:84
+2018-03-28 03:20:00 [116.226.176.36][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 116.226.176.36
+2018-03-28 03:20:00 [116.226.176.36][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'keerq23i51kurktsa3nnir1663'
+    '_csrf-frontend' => '9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA\";}'
+    'advanced-backend' => 'qdeu4gcebjbtnqhr8ki8dgif93'
+    '_csrf-backend' => '1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/cimi/backend/web/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'zhangzeen.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://zhangzeen.cn/cimi/backend/'
+    'HTTP_COOKIE' => 'advanced-frontend=keerq23i51kurktsa3nnir1663; _csrf-frontend=9eee62b68d63451d797a657f741b98e20e0619ec3e398478ef6c0886a016599ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22-OnKsFcBm0A97QJVYBiGpsbCn8WB3vsA%22%3B%7D; advanced-backend=qdeu4gcebjbtnqhr8ki8dgif93; _csrf-backend=1ae96a22ff5a17c49afeaec8a3194a030c45c00f153016d842ac25b0ebc87540a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22N0bpWiFQlRXiziqPu2fDPde2JFq_VJoL%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at zhangzeen.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'zhangzeen.cn'
+    'SERVER_ADDR' => '172.17.32.61'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '116.226.176.36'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/cimi/backend/web/index.php'
+    'REMOTE_PORT' => '52260'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/cimi/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/cimi/backend/web/index.php'
+    'PHP_SELF' => '/cimi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522207200.245
+    'REQUEST_TIME' => 1522207200
+]

@@ -3,7 +3,7 @@ namespace backend\models;
 
 use Yii;
 use yii\base\Model;
-use common\models\User;
+use common\models\AdminModel;
 /**
  * Login form
  */
@@ -42,11 +42,18 @@ class LoginForm extends Model
         if (!$this->hasErrors()) {
             $user = $this->getUser();
             if (!$user || !$user->validatePassword($this->password)) {
-                $this->addError($attribute, 'Incorrect username or password.');
+                $this->addError($attribute, '用户名或密码不正确。');
             }
         }
     }
 
+    public function attributeLabels(){
+        return [
+            'username' => '登录账户',
+            'password' => '登录密码',
+            'rememberMe' => '记住登录状态',
+        ];
+    }
     /**
      * Logs in a user using the provided username and password.
      *
@@ -69,7 +76,7 @@ class LoginForm extends Model
     protected function getUser()
     {
         if ($this->_user === null) {
-            $this->_user = User::findByUsername($this->username);
+            $this->_user = AdminModel::findByUsername($this->username);
         }
 
         return $this->_user;

@@ -6,7 +6,7 @@ use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use backend\models\LoginForm;
-use common\models\AdminLoginLogModel;
+
 /**
  * Site controller
  */
@@ -76,12 +76,6 @@ class SiteController extends Controller
 
         $model = new LoginForm();
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
-            $admin = new AdminLoginLogModel();
-            $admin->addtime = time();
-            $admin->loginip =Yii::$app->request->userIP;
-            $admin->admin_id =Yii::$app->user->identity->id;
-            $admin->note ='登录后台';
-            $admin->save();
             return $this->goBack();
         } else {
             $model->password = '';
@@ -99,13 +93,8 @@ class SiteController extends Controller
      */
     public function actionLogout()
     {
-        $admin = new AdminLoginLogModel();
-        $admin->addtime = time();
-        $admin->loginip =Yii::$app->request->userIP;
-        $admin->admin_id =Yii::$app->user->identity->id;
-        $admin->note ='注销登录';
-        $admin->save();
         Yii::$app->user->logout();
+
         return $this->goHome();
     }
 }

@@ -12,6 +12,7 @@ use yii\web\IdentityInterface;
  *
  * @property int $id 自增ID
  * @property string $username 用户名
+ * @property string $nickname 用户名
  * @property string $auth_key 自动登录key
  * @property string $password_encryption 加密密码
  * @property string $password_token 重置密码token
@@ -185,4 +186,5 @@ class AdminModel extends ActiveRecord implements IdentityInterface
     {
         $this->password_token = null;
     }
+
 }

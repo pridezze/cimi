@@ -102,8 +102,8 @@
                         'icon' => 'list',
                         'url' => '#',
                         'items' => [
-                            ['label' => '登录日志', 'icon' => 'circle-o', 'url' => 'Logs/index',],
-                            ['label' => '操作日志', 'icon' => 'circle-o', 'url' => 'Logs/operation',],
+                            ['label' => '登录日志', 'icon' => 'circle-o', 'url' => '/logs/index',],
+                            ['label' => '操作日志', 'icon' => 'circle-o', 'url' => '/logs/operation',],
                         ],
                     ],
                 ],

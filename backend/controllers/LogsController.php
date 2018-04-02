@@ -5,14 +5,14 @@ namespace backend\controllers;
 use Yii;
 use common\models\AdminLoginLogModel;
 use common\models\AdminLoginLogSearch;
-use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use backend\controllers\base\BaseController;
 
 /**
  * LogsController implements the CRUD actions for AdminLoginLogModel model.
  */
-class LogsController extends Controller
+class LogsController extends BaseController
 {
     /**
      * @inheritdoc

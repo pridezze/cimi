@@ -5,12 +5,12 @@ namespace common\models;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use common\models\AdminLoginLogModel;
+use common\models\AdminOperationLogModel;
 
 /**
- * AdminLoginLogSearch represents the model behind the search form of `common\models\AdminLoginLogModel`.
+ * AdminOperationLogSreach represents the model behind the search form of `common\models\AdminOperationLogModel`.
  */
-class AdminLoginLogSearch extends AdminLoginLogModel
+class AdminOperationLogSreach extends AdminOperationLogModel
 {
     /**
      * @inheritdoc
@@ -19,7 +19,7 @@ class AdminLoginLogSearch extends AdminLoginLogModel
     {
         return [
             [['id', 'addtime', 'admin_id'], 'integer'],
-            [['loginip', 'note'], 'safe'],
+            [['loginip', 'operationurl', 'note'], 'safe'],
         ];
     }
 
@@ -41,7 +41,7 @@ class AdminLoginLogSearch extends AdminLoginLogModel
      */
     public function search($params)
     {
-        $query = AdminLoginLogModel::find();
+        $query = AdminOperationLogModel::find();
 
         // add conditions that should always apply here
 
@@ -66,6 +66,7 @@ class AdminLoginLogSearch extends AdminLoginLogModel
         ]);
 
         $query->andFilterWhere(['like', 'loginip', $this->loginip])
+            ->andFilterWhere(['like', 'operationurl', $this->operationurl])
             ->andFilterWhere(['like', 'note', $this->note]);
 
         return $dataProvider;

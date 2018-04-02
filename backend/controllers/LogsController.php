@@ -3,14 +3,13 @@
 namespace backend\controllers;
 
 use Yii;
-use common\models\AdminLoginLogModel;
+use common\models\AdminOperationLogSreach;
 use common\models\AdminLoginLogSearch;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use backend\controllers\base\BaseController;
-
-/**
- * LogsController implements the CRUD actions for AdminLoginLogModel model.
+/*
+ *系统管理日志 控制器
  */
 class LogsController extends BaseController
 {
@@ -30,7 +29,7 @@ class LogsController extends BaseController
     }
 
     /**
-     * Lists all AdminLoginLogModel models.
+     * 管理员登录 注销日志列表
      * @return mixed
      */
     public function actionIndex()
@@ -43,71 +42,15 @@ class LogsController extends BaseController
         ]);
     }
 
-    /**
-     * Creates a new AdminLoginLogModel model.
-     * If creation is successful, the browser will be redirected to the 'view' page.
-     * @return mixed
-     */
-    public function actionCreate()
+
+    //管理员操作日志展示
+    public function actionOperation()
     {
-        $model = new AdminLoginLogModel();
+        $searchModel = new AdminOperationLogSreach();
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id]);
-        }
-
-        return $this->render('create', [
-            'model' => $model,
+        return $this->render('operation', [
+            'dataProvider' => $dataProvider,
         ]);
-    }
-
-    /**
-     * Updates an existing AdminLoginLogModel model.
-     * If update is successful, the browser will be redirected to the 'view' page.
-     * @param integer $id
-     * @return mixed
-     * @throws NotFoundHttpException if the model cannot be found
-     */
-    public function actionUpdate($id)
-    {
-        $model = $this->findModel($id);
-
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id]);
-        }
-
-        return $this->render('update', [
-            'model' => $model,
-        ]);
-    }
-
-    /**
-     * Deletes an existing AdminLoginLogModel model.
-     * If deletion is successful, the browser will be redirected to the 'index' page.
-     * @param integer $id
-     * @return mixed
-     * @throws NotFoundHttpException if the model cannot be found
-     */
-    public function actionDelete($id)
-    {
-        $this->findModel($id)->delete();
-
-        return $this->redirect(['index']);
-    }
-
-    /**
-     * Finds the AdminLoginLogModel model based on its primary key value.
-     * If the model is not found, a 404 HTTP exception will be thrown.
-     * @param integer $id
-     * @return AdminLoginLogModel the loaded model
-     * @throws NotFoundHttpException if the model cannot be found
-     */
-    protected function findModel($id)
-    {
-        if (($model = AdminLoginLogModel::findOne($id)) !== null) {
-            return $model;
-        }
-
-        throw new NotFoundHttpException('The requested page does not exist.');
     }
 }

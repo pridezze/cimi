@@ -3,7 +3,7 @@
 namespace common\models;
 
 use Yii;
-
+use common\models\AdminModel;
 /**
  * This is the model class for table "admin_operation_log".
  *
@@ -43,12 +43,16 @@ class AdminOperationLogModel extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'id' => Yii::t('app', 'ID'),
-            'addtime' => Yii::t('app', 'Addtime'),
-            'loginip' => Yii::t('app', 'Loginip'),
-            'admin_id' => Yii::t('app', 'Admin ID'),
-            'operationurl' => Yii::t('app', 'Operationurl'),
-            'note' => Yii::t('app', 'Note'),
+            'addtime' => Yii::t('app', '添加时间'),
+            'loginip' => Yii::t('app', '操作IP'),
+            'admin_id' => Yii::t('app', '管理员'),
+            'note' => Yii::t('app', '操作备注'),
+            'operationurl' => Yii::t('app', '操作URL'),
         ];
+    }
+
+    //关联管理员名称
+    public function getAdmin(){
+        return $this->hasone(AdminModel::className(),['id'=>'admin_id']);
     }
 }

@@ -7,20 +7,17 @@ use yii\grid\GridView;
 /* @var $searchModel common\models\AdminLoginLogSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Admin Login Log Models';
+$this->title = '登录日志';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="admin-login-log-model-index">
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
-        'filterModel' => $searchModel,
         'columns' => [
-            ['class' => 'yii\grid\SerialColumn'],
-            'addtime:datetime',
+            ['label'=>'操作时间','value'=>'addtime','format'=>['date', 'php:Y-m-d H:i']],
             'loginip',
-            'admin.nickname',
+            ['label'=>'操作管理员','value'=>'admin.nickname'],
             'note',
-            ['class' => 'yii\grid\ActionColumn'],
         ],
     ]); ?>
 </div>

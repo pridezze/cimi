@@ -42,12 +42,16 @@ class AdminOperationLogSreach extends AdminOperationLogModel
     public function search($params)
     {
         $query = AdminOperationLogModel::find();
-
         // add conditions that should always apply here
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
             'pagination' => ['pageSize' => 15,], //查询条数 每页
+            'sort' => [ //默认排序
+                'defaultOrder' => [
+                    'id' => SORT_DESC,
+                ]
+            ],
         ]);
 
         $this->load($params);

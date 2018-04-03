@@ -48,6 +48,11 @@ class AdminLoginLogSearch extends AdminLoginLogModel
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
             'pagination' => ['pageSize' => 15,], //查询条数 每页
+            'sort' => [ //默认排序
+                'defaultOrder' => [
+                    'id' => SORT_DESC,
+                ]
+            ],
         ]);
 
         $this->load($params);
